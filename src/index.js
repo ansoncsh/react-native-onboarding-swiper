@@ -62,6 +62,8 @@ class Onboarding extends Component {
       animated: true,
       index: this.state.currentPage + 1,
     });
+    if (this.props.onNext)
+      this.props.onNext();
   };
 
   _onLayout = () => {
