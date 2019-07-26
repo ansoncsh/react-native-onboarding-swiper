@@ -167,6 +167,7 @@ class Onboarding extends Component {
               animated: true,
               index: skipToPage,
             });
+            onSkip();
           }
         : onSkip;
 
